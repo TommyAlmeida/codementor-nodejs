@@ -1,0 +1,34 @@
+{
+  "name": "codementor-nodejs",
+  "version": "1.0.0",
+  "description": "API Wrapper for Codementor.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node server.js",
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TommyAlmeida/codementor-nodejs.git"
+  },
+  "keywords": [
+    "codementor",
+    "nodejs",
+    "api",
+    "wrapper",
+    "api"
+  ],
+  "author": "Tomás Almeida",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TommyAlmeida/codementor-nodejs/issues"
+  },
+  "homepage": "https://github.com/TommyAlmeida/codementor-nodejs#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0"
+  }
+}
