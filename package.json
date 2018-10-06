@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "SET NODE_ENV=dev && node server.js",
-    "test": "mocha --timeout 10000"
+    "test": "nyc --reporter=html --reporter=text mocha",
+    "prod": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -25,10 +26,14 @@
   },
   "homepage": "https://github.com/TommyAlmeida/codementor-nodejs#readme",
   "devDependencies": {
-    "mocha": "^5.2.0"
+    "coveralls": "^3.0.2",
+    "mocha": "^5.2.0",
+    "mocha-lcov-reporter": "^1.3.0",
+    "nyc": "^13.0.1"
   },
   "dependencies": {
     "chai": "^4.2.0",
-    "chai-http": "^4.2.0"
+    "chai-http": "^4.2.0",
+    "jscoverage": "^0.6.0"
   }
 }
