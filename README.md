@@ -21,3 +21,19 @@ The library includes the following functions:
 ## Installation
 
     $ npm install codementor-nodejs --save
+
+
+## Usage
+
+```javascript
+//Get the npm package
+const CodementorApi = require('codementor-nodejs');
+
+//Create a new instance of the CodementorApi with your api key
+const codementor = new CodementorApi("your_api_key"); 
+```
+
+#### Methods
+* confirmSession(scheduled_session_api)
+* declineSession(scheduled_session_api)
+* rescheduleSession(scheduled_session_api)
