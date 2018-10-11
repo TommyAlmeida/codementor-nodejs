@@ -1,8 +1,8 @@
 {
   "name": "codementor-nodejs",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "API Wrapper for Codementor.io",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "start": "SET NODE_ENV=dev && node server.js",
     "test": "nyc --reporter=html --reporter=text mocha",
