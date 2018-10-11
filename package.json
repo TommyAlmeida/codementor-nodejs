@@ -34,6 +34,8 @@
   "dependencies": {
     "chai": "^4.2.0",
     "chai-http": "^4.2.0",
-    "jscoverage": "^0.6.0"
+    "jscoverage": "^0.6.0",
+    "mocha-logger": "^1.0.6",
+    "node-fetch": "^2.2.0"
   }
 }
