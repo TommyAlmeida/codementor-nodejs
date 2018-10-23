@@ -35,6 +35,6 @@ const codementor = new CodementorApi("your_api_key");
 ```
 
 #### Methods
-* confirmSession(scheduled_session_id)
-* declineSession(scheduled_session_id)
-* rescheduleSession(scheduled_session_id)
+* confirmSession(scheduled_session_id) : Promise
+* declineSession(scheduled_session_id) : Promise
+* rescheduleSession(scheduled_session_id) : Promise
